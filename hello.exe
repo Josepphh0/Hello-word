@@ -1,0 +1,16 @@
+// C# program to print Hello World!
+using System;
+
+// Namespace declaration
+namespace HelloWorldApp {
+    // Class declaration
+    class Geeks {
+        // Main Method
+        static void Main(string[] args) {
+            // Printing Hello World!
+            Console.WriteLine("Hello World!");
+            // Prevents the screen from closing quickly
+            Console.ReadKey();
+        }
+    }
+}
